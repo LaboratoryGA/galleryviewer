@@ -3,7 +3,7 @@
 /*
  * Copyright (C) 2015 Nathan Crause - All rights reserved
  *
- * This file is part of Intranet_Labs
+ * This file is part of Galleryviewer
  *
  * Copying, modification, duplication in whole or in part without
  * the express written consent of the copyright holder is
@@ -64,7 +64,7 @@ final class GalleryviewerComponent extends TemplaterComponentTmpl {
 	 */
 	const OPT_SPEED = 'speed';
 	
-	private static $DEFAULTS = array(
+	public static $DEFAULTS = array(
 		self::OPT_TEMPLATE => 'galleryviewer/slider.html',
 		self::OPT_MAX => 20,
 		self::OPT_THUMBNAIL_WIDTH => 300,
